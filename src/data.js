@@ -38,11 +38,11 @@ export const skills = [
 
 export const blogPosts = [
   {
-    content: 'test blog post 1',
-    date: 'Oct 18th',
+    content: 'I will be adding my entries from the past year soon!',
+    date: '',
   },
-  {
-    content: 'test blog post 2',
-    date: 'Nov 20th',
-  },
+  // {
+  //   content: 'test blog post 2',
+  //   date: 'Nov 20th',
+  // },
 ];
