@@ -8,7 +8,7 @@ export const projects = [
     image: './scribble.png',
   },
   {
-    title: 'Grace Shopper (E-Commerce Site)',
+    title: 'Secret Stash Comics',
     subtitle:
       'Javascript, React, Redux, Bcrypt/JWT, Express, PostgreSQL, Sequelize',
     description:
