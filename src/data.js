@@ -41,6 +41,10 @@ export const blogPosts = [
     content: 'I will be adding my entries from the past year soon!',
     date: '',
   },
+  {
+    content: 'I will be adding my entries from the past year soon!',
+    date: '',
+  },
   // {
   //   content: 'test blog post 2',
   //   date: 'Nov 20th',
