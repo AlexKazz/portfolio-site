@@ -16,3 +16,33 @@ export const projects = [
     image: './grace-shopper.png',
   },
 ];
+
+export const skills = [
+  'Javascript',
+  'React',
+  'Redux',
+  'Node',
+  'Express',
+  'SQL',
+  'PostgreSQL',
+  'Sequelize',
+  'HTML',
+  'CSS',
+  'Tailwind CSS',
+  'Git',
+  'REST API',
+  'Testing Frameworks (Mocha, Jasmine)',
+  'Agile Development',
+  'Continuous Integration & Deployment',
+];
+
+export const blogPosts = [
+  {
+    content: 'test blog post 1',
+    date: 'Oct 18th',
+  },
+  {
+    content: 'test blog post 2',
+    date: 'Nov 20th',
+  },
+];
