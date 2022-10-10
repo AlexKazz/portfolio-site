@@ -11,7 +11,7 @@ export default function Projects() {
           <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4 text-white'>
             Apps I've Made
           </h1>
-          <p className='lg:w-2/3 mix-auto leading-relaxed text-base'>
+          <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
             These are some of the applications I've built, both with a team and
             on my own.
           </p>
