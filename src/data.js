@@ -23,17 +23,13 @@ export const skills = [
   'Redux',
   'Node',
   'Express',
-  'SQL',
   'PostgreSQL',
-  'Sequelize',
   'HTML',
   'CSS',
-  'Tailwind CSS',
   'Git',
   'REST API',
-  'Testing Frameworks (Mocha, Jasmine)',
+  'Testing Frameworks',
   'Agile Development',
-  'Continuous Integration & Deployment',
 ];
 
 export const blogPosts = [
@@ -41,10 +37,7 @@ export const blogPosts = [
     content: 'I will be adding my entries from the past year soon!',
     date: '',
   },
-  {
-    content: 'I will be adding my entries from the past year soon!',
-    date: '',
-  },
+
   // {
   //   content: 'test blog post 2',
   //   date: 'Nov 20th',
