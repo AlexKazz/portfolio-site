@@ -46,13 +46,11 @@ export const blogPosts = [
     
     I did some "for" loops and arrays in scrimba, but I need to brush up on them.
     
-    Not sure how to use git or GitHub. No idea :)
-    
     I'm getting better at navigating VS code (creating the .html / .css pages & "running" them in the browser).
     
     Still need practice with terminal and learning CS basics. I understand that data exists on servers and my friend's basic flowchart of how the internet works, but that's about it.
     
-    Besides basic html, basic css, and a microscopic fraction of javascript, I know nothing about other languages and still have no idea what I'm doing :)`,
+    Even though I just know the basics of HTML, CSS and javascript, it feels like I'm starting to get it!`,
     date: 'December 8th, 2021',
   },
   {

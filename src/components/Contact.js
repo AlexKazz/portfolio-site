@@ -1,11 +1,39 @@
 import React, { Fragment } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('xknezbop');
+
+  const errorMsg = () =>
+    toast.warn('Email and Message fields are empty!', {
+      position: 'bottom-center',
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: 'colored',
+    });
+
+  const notify = () =>
+    toast.success('Message sent!', {
+      position: 'bottom-center',
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: 'colored',
+    });
+
   if (state.succeeded) {
-    return <p>Message sent!</p>;
+    return <p className='text-center pb-8'>Your message was sent!</p>;
   }
+
   return (
     <>
       <section id='contact' className='relative'>
@@ -82,12 +110,25 @@ export default function ContactForm() {
               />
             </div>
             <button
+              // onClick={state.errors ? () => errorMsg() : null}
               type='submit'
               className='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'
               disabled={state.submitting}
             >
               Submit
             </button>
+            {/* <ToastContainer
+              position='bottom-center'
+              autoClose={3000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover={false}
+              theme='colored'
+            /> */}
           </form>
         </div>
       </section>
