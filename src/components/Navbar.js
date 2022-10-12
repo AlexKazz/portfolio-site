@@ -14,11 +14,11 @@ export default function Navbar() {
         </h2>
         <nav className='md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
           <a href='#projects' className='mx-2 hover:text-white'>
-            Skills
+            Projects
           </a>
-          <a href='#blog' className='mx-2 hover:text-white'>
+          {/* <a href='#blog' className='mx-2 hover:text-white'>
             Blog
-          </a>
+          </a> */}
           <a href='#contact' className='mx-2 hover:text-white'>
             Contact
           </a>

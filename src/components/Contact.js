@@ -53,10 +53,6 @@ export default function ContactForm() {
                 <h2 className='text-indigo-400 leading-relaxed'>
                   akazenoff@gmail.com
                 </h2>
-                <h2 className='title-font font-semibold text-white tracking-widest text-xs mt-4'>
-                  PHONE
-                </h2>
-                <p className='leading-relaxed'>(631) 278-0699</p>
               </div>
             </div>
           </div>

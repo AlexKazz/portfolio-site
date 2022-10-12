@@ -27,7 +27,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
     </main>
   );
