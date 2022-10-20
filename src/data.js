@@ -15,7 +15,7 @@ export const projects = [
     description:
       'E-commerce app with user & cart functionality, using REST API',
     image: './grace-shopper.png',
-    link: 'https://github.com/2206-fsa-gs-saggitarius/Comic-Book-Store',
+    link: 'https://github.com/AlexKazz/secret-stash-comics',
   },
 ];
 
