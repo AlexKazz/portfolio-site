@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: 'Lazy Lyrics',
+    subtitle: 'Javascript, React, HTML, TailwindCSS, Express, Render',
+    description:
+      'Lyric writing app that grabs lyrics from real songs based on user input',
+    image: './lazy-lyrics.png',
+    link: 'https://github.com/AlexKazz/lazy-lyrics-app',
+  },
+  {
     title: 'Scribble Me This',
     subtitle:
       'TensorFlow.js, ML5, Javascript, React, Redux, Express, Socket.io, Heroku',

@@ -21,14 +21,14 @@ export default function Projects() {
             on my own.
           </p>
         </div>
-        <div className='flex flex-wrap -m-4'>
+        <div className='flex flex-col -m-4 items-center'>
           {projects.map((project) => (
             <a
               href={project.link}
               target={'_blank'}
               rel='noreferrer'
               key={project.image}
-              className='sm:w-1/2 w-100 p-4'
+              className='sm:w-3/4 w-100 p-4'
             >
               <div className='flex relative'>
                 <img
