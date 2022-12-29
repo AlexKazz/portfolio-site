@@ -21,7 +21,7 @@ export default function Projects() {
             on my own.
           </p>
         </div>
-        <div className='flex flex-col -m-4 items-center'>
+        <div className='flex flex-col items-center'>
           {projects.map((project) => (
             <a
               href={project.link}
@@ -30,13 +30,13 @@ export default function Projects() {
               key={project.image}
               className='sm:w-3/4 w-100 p-4'
             >
-              <div className='flex relative'>
+              <div className='flex relative m-6'>
                 <img
                   alt='gallery'
                   className='absolute inset-0 w-full object-cover object-center'
                   src={project.image}
                 />
-                <div className='px-8 py-12 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100'>
+                <div className='px-8 py-20 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100'>
                   <h2 className='tracket-widest text-sm title-font font-medium text-green-400 mb-1'>
                     {project.subtitle}
                   </h2>
