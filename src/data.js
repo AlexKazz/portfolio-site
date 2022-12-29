@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Lazy Lyrics',
-    subtitle: 'Javascript, React, HTML, TailwindCSS, Express, Render',
+    subtitle: 'Javascript, React, Redux, HTML, TailwindCSS, Express, Render',
     description:
       'Lyric writing app that grabs lyrics from real songs based on user input',
     image: './lazy-lyrics.png',
