@@ -7,14 +7,14 @@ import Blog from './components/Blog';
 
 function App() {
   return (
-    <main className='text-gray-400 bg-gray-900 body-font'>
+    <main className='text-gray-800 body-font'>
       <Navbar />
 
       {/* <About /> */}
       <Projects />
 
       {/* <Blog /> */}
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 }

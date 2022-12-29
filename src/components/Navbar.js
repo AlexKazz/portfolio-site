@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <header className='bg-gray-800 md:sticky top-0 z-10'>
+    <header className='bg-gray-200 md:sticky top-0 z-10'>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
-        <h2 className='title-font font-medium text-white mb-4 md:mb-0'>
+        <h2 className='title-font font-medium text-gray-800 mb-4 md:mb-0'>
           <a href='#about' className='mx-2 text-xl'>
             Alex Kazenoff
           </a>
@@ -30,7 +30,7 @@ export default function Navbar() {
         >
           <FontAwesomeIcon
             icon={faLinkedin}
-            className='fa-xl inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0'
+            className='fa-xl inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded mt-4 md:mt-0'
           />
         </a>
         <a
@@ -40,7 +40,7 @@ export default function Navbar() {
         >
           <FontAwesomeIcon
             icon={faGithub}
-            className='fa-xl inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0'
+            className='fa-xl inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0'
           />
         </a>
       </div>
