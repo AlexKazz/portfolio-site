@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
@@ -7,15 +8,17 @@ import Blog from './components/Blog';
 
 function App() {
   return (
-    <main className='text-gray-800 body-font'>
+    <div>
       <Navbar />
 
-      {/* <About /> */}
-      <Projects />
+      <Routes>
+        <Route exact path='/' element={<Projects />}></Route>
+        <Route exact path='/contact' element={<Contact />}></Route>
+      </Routes>
 
       {/* <Blog /> */}
       {/* <Contact /> */}
-    </main>
+    </div>
   );
 }
 
