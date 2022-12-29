@@ -1,27 +1,21 @@
 export const projects = [
   {
     title: 'Lazy Lyrics',
-    subtitle: 'Javascript, React, Redux, HTML, TailwindCSS, Express, Render',
-    description:
-      'Lyric writing app that grabs lyrics from real songs based on user input',
+
+    description: 'Lyric writing app',
     image: './lazy-lyrics.png',
     link: 'https://github.com/AlexKazz/lazy-lyrics-app',
   },
   {
     title: 'Scribble Me This',
-    subtitle:
-      'TensorFlow.js, ML5, Javascript, React, Redux, Express, Socket.io, Heroku',
-    description:
-      'Pictionary-style game in which players compete to have their drawings recognized by an AI',
+
+    description: 'Pictionary-style AI drawing game',
     image: './scribble.png',
     link: 'https://github.com/Scribble-Me-This/2022-Scribble-Me-This',
   },
   {
     title: 'Secret Stash Comics',
-    subtitle:
-      'Javascript, React, Redux, Bcrypt/JWT, Express, PostgreSQL, Sequelize',
-    description:
-      'E-commerce app with user & cart functionality, using REST API',
+    description: 'E-commerce app',
     image: './grace-shopper.png',
     link: 'https://github.com/AlexKazz/secret-stash-comics',
   },

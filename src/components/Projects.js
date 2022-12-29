@@ -37,10 +37,10 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className='p-5 relative z-10 w-full border-2 border-gray-800 bg-gray-200 opacity-0 hover:opacity-100'>
-                  <h1 className='title-font text-lg font-medium text-gray-400 mb-3'>
+                  <h1 className='title-font text-lg font-medium text-gray-600 mb-4'>
                     {project.title}
                   </h1>
-                  <p className='leading-relaxed'>{project.description}</p>
+                  <p className='leading-relaxed mb-8'>{project.description}</p>
                 </div>
               </div>
             </a>
