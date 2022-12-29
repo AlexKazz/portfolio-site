@@ -6,7 +6,7 @@ import { projects } from '../data';
 
 export default function Projects() {
   return (
-    <section id='projects' className='text-gray-800 h-screen body-font pb-6'>
+    <section id='projects' className='text-gray-800 body-font pb-6'>
       <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
         <div className='flex flex-col w-full mb-20'>
           <FontAwesomeIcon
@@ -21,7 +21,7 @@ export default function Projects() {
             on my own.
           </p>
         </div>
-        <div className='flex'>
+        <div className='flex md:flex-row'>
           {projects.map((project) => (
             <a
               href={project.link}
@@ -33,7 +33,7 @@ export default function Projects() {
               <div className='flex relative mx-4'>
                 <img
                   alt='gallery'
-                  className='absolute inset-0 w-full object-cover object-center'
+                  className='absolute inset-0 w-full object-cover object-center border border-slate-800'
                   src={project.image}
                 />
                 <div className='p-5 relative z-10 w-full border-2 border-gray-800 bg-gray-200 opacity-0 hover:opacity-100'>
