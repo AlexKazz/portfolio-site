@@ -1,7 +1,7 @@
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import React from 'react';
 
 export default function Navbar() {
@@ -12,15 +12,15 @@ export default function Navbar() {
           Alex Kazenoff
         </h2>
         <nav className='md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
-          <a href='/' className='mx-2 hover:text-white'>
+          <Link to='/' className='mx-2 hover:text-white'>
             Projects
-          </a>
+          </Link>
           {/* <a href='#blog' className='mx-2 hover:text-white'>
             Blog
           </a> */}
-          <a href='/contact' className='mx-2 hover:text-white'>
+          <Link to='/contact' className='mx-2 hover:text-white'>
             Contact
-          </a>
+          </Link>
         </nav>
         <a
           href='https://www.linkedin.com/in/alex-kazenoff/'
