@@ -11,10 +11,10 @@ export default function Navbar() {
         <h2 className='title-font font-medium text-2xl md:mb-0 mx-10'>
           Alex Kazenoff
         </h2>
-        <nav className='md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
+        <nav className='md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center'>
           <Link
             to='/'
-            className='ml-10 mr-20 hover:text-custom-cream-500 transition link link-underline'
+            className='mr-20 hover:text-custom-cream-500 transition link link-underline'
           >
             Home
           </Link>

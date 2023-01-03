@@ -9,11 +9,11 @@ export default function ContactForm() {
   }
 
   return (
-    <div className='bg-custom-cream-500 pt-3'>
-      <div className='sm:flex-nowrap flex-col bg-white rounded-2xl mx-60'>
+    <div className='bg-custom-cream-500 pt-3 flex justify-center'>
+      <div className='sm:flex-nowrap flex-col bg-white min-w-fit mb-5 mx-5 pb-5 px-5 rounded-2xl lg:w-2/3'>
         <div className='lg:w-2/3 md:w-1/2 flex justify-center flex-col m-auto w-full md:pt-4 mt-8 md:mt-0 '>
           <div className='relative flex flex-wrap rounded'>
-            <div className='lg:w-1/2 mt-4 lg:mt-0'>
+            <div className='lg:w-1/2 mt-4'>
               <h2 className='title-font font-semibold text-gray-500 tracking-widest text-xs'>
                 EMAIL
               </h2>
