@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDisplay } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { projects } from '../data';
-// import ToolTip from './ToolTip';
+import ToolTip from './ToolTip';
 
 export default function Projects() {
   return (
@@ -24,13 +24,12 @@ export default function Projects() {
         </div>
         <div className='flex flex-wrap -m-4 justify-center'>
           {projects.map((project) => (
-            // <ToolTip tooltip='View source code on GitHub'>
             <a
               href={project.link}
               target={'_blank'}
               rel='noreferrer'
               key={project.image}
-              className='w-2/3 m-4 hover:bg-slate-200 transition rounded-lg'
+              className='w-2/3 m-4 p-4 hover:bg-slate-200 transition rounded-lg group'
             >
               <div className='flex relative'>
                 <img
@@ -42,12 +41,18 @@ export default function Projects() {
                   <h1 className='title-font text-lg font-medium text-gray-600 mb-4'>
                     {project.title}
                   </h1>
-                  
                 </div> */}
               </div>
-              <p className='leading-relaxed m-5'>{project.description}</p>
+              <p className='leading-relaxed m-2'>{project.description}</p>
+              {/* <div className='leading-relaxed m-2 z-10 opacity-0 hover:opacity-100'>
+                <p className='title-font text-lg font-medium text-gray-600 mb-4'>
+                  {project.title}
+                </p>
+              </div> */}
+              <p className='opacity-0 group-hover:opacity-100 transition text-sm text-slate-600'>
+                Click to view source code
+              </p>
             </a>
-            // </ToolTip>
           ))}
         </div>
       </div>
