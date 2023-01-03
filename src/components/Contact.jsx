@@ -9,17 +9,11 @@ export default function ContactForm() {
   }
 
   return (
-    <>
-      <div className='px-5 sm:flex-nowrap flex-col'>
-        <div className='lg:w-2/3 md:w-1/2 flex justify-center flex-col m-auto w-full md:pt-8 mt-8 md:mt-0'>
+    <div className='bg-custom-cream-500 pt-3'>
+      <div className='sm:flex-nowrap flex-col bg-white rounded-2xl mx-60'>
+        <div className='lg:w-2/3 md:w-1/2 flex justify-center flex-col m-auto w-full md:pt-4 mt-8 md:mt-0 '>
           <div className='relative flex flex-wrap rounded'>
             <div className='lg:w-1/2 mt-4 lg:mt-0'>
-              <h2 className='title-font font-semibold text-gray-500 tracking-widest text-xs'>
-                LOCATION
-              </h2>
-              <p className='mt-1'>Los Angeles, CA</p>
-            </div>
-            <div className='lg:w-1/2 px-6 mt-4 lg:mt-0'>
               <h2 className='title-font font-semibold text-gray-500 tracking-widest text-xs'>
                 EMAIL
               </h2>
@@ -81,6 +75,6 @@ export default function ContactForm() {
           </button>
         </form>
       </div>
-    </>
+    </div>
   );
 }

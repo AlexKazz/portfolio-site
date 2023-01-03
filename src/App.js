@@ -8,11 +8,12 @@ import Blog from './components/Blog';
 
 function App() {
   return (
-    <div>
+    <div className='bg-custom-cream-500 h-screen'>
       <Navbar />
 
       <Routes>
-        <Route exact path='/' element={<Projects />}></Route>
+        <Route exact path='/' element={<About />}></Route>
+        <Route path='/projects' element={<Projects />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
       </Routes>
 
