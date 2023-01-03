@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
   return (
     <section id='about' className='bg-custom-cream-500'>
-      <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
-        <div className='mr-20 lg:flex-grow md:w-1/2 lg:pr-8 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-white rounded-2xl p-6'>
+      <div className='container mx-auto flex px-10 py-3 md:flex-row flex-col items-center'>
+        <div className='lg:mr-20 lg:flex-grow md:w-1/2 md:mr-3 lg:pr-8 md:pr-16 flex flex-col md:items-start md:text-left mb-3 md:mb-0 items-center bg-white rounded-2xl p-6'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium '>
             Hi, I'm Alex.
           </h1>
@@ -31,7 +31,7 @@ export default function About() {
             className='object-cover object-center rounded'
             // src='./alex-ernie-clipped.png'
             src='./alex-ernie-clipped.png'
-            alt='A guy with his cutie lil dog named Ernie (short for Ernest)'
+            alt='A guy with his cute lil dog named Ernie (short for Ernest)'
           />
         </div>
       </div>
