@@ -8,7 +8,7 @@ import Blog from './components/Blog';
 
 function App() {
   return (
-    <div className='bg-custom-cream-500 h-screen'>
+    <div className='bg-custom-cream-500 h-screen font-quicksand'>
       <Navbar />
 
       <Routes>

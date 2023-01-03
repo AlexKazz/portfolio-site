@@ -22,6 +22,9 @@ module.exports = {
     extend: {
       colors: colors,
     },
+    fontFamily: {
+      quicksand: ['Quicksand', 'sans-serif'],
+    },
   },
   variants: {
     extend: {
