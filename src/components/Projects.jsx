@@ -7,14 +7,14 @@ import ToolTip from './ToolTip';
 
 export default function Projects() {
   return (
-    <section id='projects' className='text-gray-800 body-font pb-6'>
-      <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
-        <div className='flex flex-col w-full mb-20'>
+    <section id='projects' className='body-font bg-custom-cream-500'>
+      <div className='container py-3 mx-auto text-center lg:px-40 w-5/6'>
+        <div className='flex flex-col w-full mb-3 bg-white rounded-2xl p-3'>
           <FontAwesomeIcon
             icon={faDisplay}
             className='fa-xl mx-auto inline-block w-10 mb-4'
           />
-          <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-800'>
+          <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4'>
             Applications
           </h1>
           <p className='mx-auto leading-relaxed text-base'>
@@ -22,14 +22,14 @@ export default function Projects() {
             on my own.
           </p>
         </div>
-        <div className='flex flex-wrap -m-4 justify-center'>
+        <div className='flex flex-wrap justify-center bg-white rounded-2xl p-6'>
           {projects.map((project) => (
             <a
               href={project.link}
               target={'_blank'}
               rel='noreferrer'
               key={project.image}
-              className='w-2/3 m-4 p-4 hover:bg-slate-200 transition rounded-lg group'
+              className='w-2/3 m-4 p-4 hover:bg-custom-cream-500 transition rounded-lg group'
             >
               <div className='flex relative'>
                 <img
