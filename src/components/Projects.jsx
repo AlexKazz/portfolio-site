@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDisplay } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { projects } from '../data';
+// import ToolTip from './ToolTip';
 
 export default function Projects() {
   return (
@@ -21,29 +22,32 @@ export default function Projects() {
             on my own.
           </p>
         </div>
-        <div className='flex md:flex-row'>
+        <div className='flex flex-wrap -m-4 justify-center'>
           {projects.map((project) => (
+            // <ToolTip tooltip='View source code on GitHub'>
             <a
               href={project.link}
               target={'_blank'}
               rel='noreferrer'
               key={project.image}
-              className='sm:w-3/4 w-100'
+              className='w-2/3 m-4 hover:bg-slate-200 transition rounded-lg'
             >
-              <div className='flex relative mx-4'>
+              <div className='flex relative'>
                 <img
                   alt='gallery'
-                  className='absolute inset-0 w-full object-cover object-center border border-slate-800'
+                  className='inset-0 w-full object-cover object-center border border-slate-800 rounded-lg '
                   src={project.image}
                 />
-                <div className='p-5 relative z-10 w-full border-2 border-gray-800 bg-gray-200 opacity-0 hover:opacity-100'>
+                {/* <div className='p-5 relative z-10 w-full border-2 border-gray-800 bg-gray-200 opacity-0 hover:opacity-100'>
                   <h1 className='title-font text-lg font-medium text-gray-600 mb-4'>
                     {project.title}
                   </h1>
-                  <p className='leading-relaxed mb-8'>{project.description}</p>
-                </div>
+                  
+                </div> */}
               </div>
+              <p className='leading-relaxed m-5'>{project.description}</p>
             </a>
+            // </ToolTip>
           ))}
         </div>
       </div>
