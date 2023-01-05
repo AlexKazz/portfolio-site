@@ -33,14 +33,14 @@ export default function Navbar() {
             Projects
           </Link>
 
-          <Link
+          {/* <Link
             to='/posts'
             className={`mr-10 hover:text-custom-cream-500 transition link link-underline ${
               pathname === '/posts' ? 'underline underline-offset-4' : ''
             }`}
           >
             Posts
-          </Link>
+          </Link> */}
           <Link
             to='/contact'
             className={`hover:text-custom-cream-500 transition link link-underline ${
@@ -57,7 +57,7 @@ export default function Navbar() {
         >
           <FontAwesomeIcon
             icon={faLinkedin}
-            className='fa-2xl inline-flex items-center border-0 py-1 px-5 focus:outline-none transition link link-underline rounded mt-1 md:mt-0'
+            className='fa-2xl inline-flex items-center border-0 py-1 mx-8 focus:outline-none transition link link-underline rounded mt-1 md:mt-0'
           />
         </a>
         <a
@@ -67,7 +67,7 @@ export default function Navbar() {
         >
           <FontAwesomeIcon
             icon={faGithub}
-            className='fa-2xl inline-flex items-center border-0 py-1 px-5 lg:pr-10 focus:outline-none transition link link-underline rounded mt-1 md:mt-0'
+            className='fa-2xl inline-flex items-center border-0 py-1 mx-8 focus:outline-none transition link link-underline rounded mt-1 md:mt-0'
           />
         </a>
       </div>

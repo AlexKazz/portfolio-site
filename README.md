@@ -1,19 +1,12 @@
-<div>
-<h1 align="center">My Portfolio Website</h1>
+<h1>My Portfolio</h1>
 
-<p align="center">
-Welcome to my portfolio website! 
-</br>
-Here you'll find some of the software applications I developed, both with a team and on my own.
-</div>
+Welcome to my portfolio website, where you can read my blog posts and see a picture of my dog.
 
 ### Built With
 
 - [![React.js][react.js]][react-url]
 - [![Javascript][javascript]][javascript-url]
 - [![Node.js][node.js]][node.js-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
