@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind takes out all default styles applied to html elements, so we need this */
+.markdown > * {
+  all: revert;
+}
+
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
