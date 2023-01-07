@@ -8,7 +8,7 @@ import PostPage from './components/PostPage';
 
 function App() {
   return (
-    <div className='bg-custom-cream-500 h-screen font-quicksand'>
+    <div className='bg-custom-cream-500 min-h-screen font-quicksand'>
       <Navbar />
 
       <Routes>

@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = location.pathname;
 
   return (
-    <header className='bg-stone-800 md:sticky top-0 z-10 text-white'>
+    <header className='bg-stone-800 md:sticky lg:sticky top-0 z-10 text-white'>
       <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
         <h2 className='title-font font-extrabold text-2xl md:mb-0 lg:pl-10'>
           Alex Kazenoff

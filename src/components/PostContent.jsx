@@ -46,9 +46,9 @@ const PostContent = () => {
 
   return (
     <div className='bg-custom-cream-500'>
-      <div className='flex flex-col justify-center mx-5 mt-3'>
+      <div className='flex flex-col mx-5 mt-3'>
         <section id='post1'>
-          <div className='bg-white p-5 rounded-2xl mb-10'>
+          <div className='bg-white py-5 px-10 rounded-2xl mb-10 leading-relaxed'>
             <ReactMarkdown className='markdown'>{post1}</ReactMarkdown>
           </div>
         </section>
