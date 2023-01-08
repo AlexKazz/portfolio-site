@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { CopyBlock } from 'react-code-blocks';
 
 import ReactMarkdown from 'react-markdown';
 
@@ -52,7 +53,7 @@ const PostContent = () => {
             <ReactMarkdown className='markdown'>{post1}</ReactMarkdown>
           </div>
         </section>
-        <section id='post2'>
+        {/* <section id='post2'>
           <div className='bg-white p-5 rounded-2xl mb-10'>
             <ReactMarkdown className='markdown'>{post2}</ReactMarkdown>
           </div>
@@ -61,7 +62,7 @@ const PostContent = () => {
           <div className='bg-white p-5 rounded-2xl mb-10'>
             <ReactMarkdown className='markdown'>{post3}</ReactMarkdown>
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );
