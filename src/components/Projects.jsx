@@ -18,7 +18,7 @@ export default function Projects() {
           <h1 className='sm:text-4xl text-3xl font-medium title-font mb-4'>
             Applications
           </h1>
-          <p className='mx-auto leading-relaxed text-base'>
+          <p className='mx-auto leading-relaxed text-lg'>
             These are some of the applications I've built, both with a team and
             on my own.
           </p>
@@ -44,7 +44,7 @@ export default function Projects() {
                   </h1>
                 </div> */}
               </div>
-              <p className='leading-relaxed m-2'>{project.description}</p>
+              <p className='leading-relaxed text-xl m-2'>{project.title}</p>
               {/* <div className='leading-relaxed m-2 z-10 opacity-0 hover:opacity-100'>
                 <p className='title-font text-lg font-medium text-gray-600 mb-4'>
                   {project.title}
