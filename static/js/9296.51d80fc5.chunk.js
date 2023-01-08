@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio_app=self.webpackChunkmy_portfolio_app||[]).push([[9296],{9296:function(p,e,a){p.exports=a.p+"static/media/apiCalls.03c03e891ea8fe2b6076.md"}}]);

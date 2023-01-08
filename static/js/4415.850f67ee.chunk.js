@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio_app=self.webpackChunkmy_portfolio_app||[]).push([[4415],{4415:function(p,a,o){p.exports=o.p+"static/media/UILayout.10caacf911f984c62593.md"}}]);
