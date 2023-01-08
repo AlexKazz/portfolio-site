@@ -33,14 +33,14 @@ export default function Navbar() {
             Projects
           </Link>
 
-          <Link
+          {/* <Link
             to='/posts'
             className={`mr-10 hover:text-custom-cream-500 transition link link-underline ${
               pathname === '/posts' ? 'underline underline-offset-4' : ''
             }`}
           >
             Posts
-          </Link>
+          </Link> */}
           <Link
             to='/contact'
             className={`hover:text-custom-cream-500 transition link link-underline ${
